@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  itemImageUrl = '../assets/cobra.gif';
+  isUnchanged = true;
+  classes = 'special';
+  // #docregion parent-data-type
+  parentItem = 'bananas';
+  // #enddocregion parent-data-type
 }
