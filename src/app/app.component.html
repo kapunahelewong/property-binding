@@ -27,9 +27,15 @@
   <h2>Model property of a custom component:</h2>
   <!-- #docregion model-property-binding -->
   <app-item-detail [childItem]="parentItem"></app-item-detail>
-  <!-- #enddocregion model-property-binding  -->
+  <!-- #enddocregion model-property-binding -->
   <!-- #docregion no-evaluation -->
   <app-item-detail childItem="parentItem"></app-item-detail>
   <!-- #enddocregion no-evaluation -->
+
+  <h2>Pass an object:</h2>
+  <!-- #docregion pass-object -->
+  <app-list-item [item]="currentItem"></app-list-item>
+  <!-- #enddocregion pass-object -->
+
 
 </div>
