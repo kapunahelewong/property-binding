@@ -8,17 +8,11 @@ import { Item } from '../item';
   styleUrls: ['./list-item.component.css']
 })
 export class ListItemComponent implements OnInit {
-
-
   items = ITEMS;
-
   // #docregion item-input
   @Input() item: Item;
   // #enddocregion item-input
-
-
   constructor() { }
-
   ngOnInit() {
   }
 

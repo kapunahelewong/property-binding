@@ -21,5 +21,10 @@ export class AppComponent {
   }];
   // #enddocregion pass-object
 
+  interpolationTitle = 'Interpolation';
+  propertyTitle = 'Property binding';
 
+  // #docregion malicious-content
+  evilTitle = 'Template <script>alert("evil never sleeps")</script>Syntax';
+  // #enddocregion malicious-content
 }
